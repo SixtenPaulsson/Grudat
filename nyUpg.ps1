@@ -28,8 +28,8 @@ New-Item -Path ./$upg -Name "upg_$upg.md" -ItemType "file"
         Add-Content -Path .\$upg\upg_$upg.md  -Value $subb
     }
     git.exe add .\$upg\upg_$upg.md
-    git.exe status
     git.exe commit .\$upg\upg_$upg.md -m "added another folder and md for $upg"
+    git.exe push origin main
     #git.exe add *
     #git.exe commit -am "added another md file"
 }
