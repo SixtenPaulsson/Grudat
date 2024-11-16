@@ -6,7 +6,7 @@ Uppgift sak för uppgift 3.4
 
 ## G
 
-## U
+## u
 
 ## U(x,y)
 
